@@ -51,7 +51,8 @@
     "web-encoding": "1.1.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -74,7 +75,8 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "express": "^4.16.4"
   },
   "module": "commonjs"
 }
